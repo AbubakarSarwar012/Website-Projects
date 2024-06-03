@@ -1,0 +1,39 @@
+body{
+  background-color: rgba(128, 128, 128, 0.178);
+}
+
+.div-body{
+  height:450px;
+  width: 250px;
+  border: 1px solid rgba(0, 0, 0, 0.199);
+  position:relative;
+  left:500px;
+  top:100px;
+  border-radius: 10px;
+  background-color: white;
+
+}
+.logo{
+  margin:5px;
+  width:240px;
+  height:170px;
+  border-radius: 10px;
+  background-image: url("/images/download.jpg");
+  background-size: cover;
+}
+button{
+  border-radius: 5px;
+  background-color: white;
+  margin-left:7px;
+  margin-top:10px;
+  border-color: rgba(0, 0, 0, 0.027);
+}
+h2 , p{
+  padding:10px;
+}
+#read-more{
+  margin-left: 85px;
+  color:blue;
+  background-color: rgb(235, 235, 252);
+  border-radius:20px;
+}
