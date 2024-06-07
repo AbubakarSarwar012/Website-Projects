@@ -1,0 +1,30 @@
+a{
+  text-decoration: none;
+  margin-right:200px;
+
+}
+body{
+  position:relative;
+}
+*{
+  margin: 0;
+  padding: 0;
+  color:white;
+}
+#logo{
+  font-size:25px;
+  color:#f08804;
+
+}
+div{
+  background-color: #0f1111;
+  height:60px;
+}
+button{
+  background-color:#f08804;
+  width:70px;
+}
+.footer{
+  margin-top:85vh;
+
+}
