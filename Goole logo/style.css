@@ -1,0 +1,28 @@
+@import url(https://db.onlinewebfonts.com/c/286e8cea636c4520dc3d1a4df56f52cf?family=Facile+Sans);
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Facile Sans";
+  box-sizing:border-box;
+}
+body{
+  width:100%;
+  height:100vh;
+  background-image: url("background-img.jpg");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  position: relative;
+}
+div{
+  width:400px;
+  height:400px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  translate:-50% -50%;
+  background:conic-gradient(from -23deg at 28%,red 0deg,red 90deg,rgb(0, 0, 168) 90deg,rgb(0, 0, 168) 180deg,green 180deg,green 270deg,yellow 270deg,yellow 380deg);
+  font-size:25em;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color:transparent;
+}

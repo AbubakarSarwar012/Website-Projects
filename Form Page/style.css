@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+html{
+  width:100%;
+  height:100vh;
+  background-image: url("background-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+}
+.hero{
+  width:300px;
+  margin-top:11.5%;
+  margin-left:40.5%;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px black;
+}
+label{
+  display:block;
+  padding-top:10px;
+}
+#input > h2{
+  padding-top:10px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#input{
+  margin-left:20px;
+  margin-right:20px;
+}
+.searchbar{
+  width:250px;
+}
+#input > #button{
+  width:150px;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-right:7px;
+  padding-left:7px;
+  color:white;
+  font-weight:bold;
+  background-color:rgba(245, 105, 12, 0.938);
+  border-radius: 5px;
+  cursor:pointer;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+

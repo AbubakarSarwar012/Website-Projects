@@ -1,0 +1,98 @@
+
+  /*    Developed by Abubakar */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  width:100%;
+  height:100vh;
+  font-family: "Jost";
+}
+.first{
+  width:100%;
+  height:100vh;
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://images.pexels.com/photos/720606/pexels-photo-720606.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+  display:grid;
+  place-items: center;
+  text-transform: uppercase;
+  text-shadow: 1px  1px 0px black;
+  text-align: center;
+  background-attachment: fixed;
+}
+.first > h2{
+  font-weight: bolder;
+  font-size: 4em;
+}
+.first > p{
+  font-weight: bold;
+}
+.second{
+  width:100%;
+  height:100vh;
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://images.pexels.com/photos/175696/pexels-photo-175696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+  display:grid;
+  place-items: center;
+  text-transform: uppercase;
+  text-shadow: 1px  1px 0px black;
+  text-align: center;
+  background-attachment: fixed;
+}
+.second > h2{
+  font-weight: bolder;
+  font-size: 4em;
+}
+.second > p{
+  font-weight: bold;
+}
+.third{
+  width:100%;
+  height:100vh;
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://images.pexels.com/photos/432059/pexels-photo-432059.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+  display:grid;
+  place-items: center;
+  text-transform: uppercase;
+  text-shadow: 1px  1px 0px black;
+  text-align: center;
+  background-attachment: fixed;
+}
+.third > h2{
+  font-weight: bolder;
+  font-size: 4em;
+}
+.third > p{
+  font-weight: bold;
+}
+.forth{
+  width:100%;
+  height:100vh;
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://images.pexels.com/photos/1894263/pexels-photo-1894263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+  display:grid;
+  place-items: center;
+  text-transform: uppercase;
+  text-shadow: 1px  1px 0px black;
+  text-align: center;
+  background-attachment: fixed;
+}
+.forth > h2{
+  font-weight: bolder;
+  font-size: 4em;
+}
+.forth > p{
+  font-weight: bold;
+}
