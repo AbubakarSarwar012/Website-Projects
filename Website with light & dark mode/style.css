@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html{
+  font-size:10px;
+}
+
+:root{                                         /* For light mode Theme*/
+  --bg-body:rgba(240, 248, 255,0.9);
+  --bg-header:aliceblue;
+  --bg-primary:#18122B;
+}
+body{
+  width:100%;
+  height: 100vh;
+  background-color:var(--bg-body);
+  color:var(--bg-primary);                    
+} 
+.navbar{
+  background-color: var(--bg-header);                        
+}
+.main > .content a{
+  color: var(--bg-primary);
+}                            
+
+
+                                                /* For light mode Theme*/
+
+ :root .dark-mode{                                             /* For Dark mode Theme*/
+
+  --bg-body:#18122B;
+  --bg-header:#18122B;
+  --bg-primary:#ECF2FF;
+ }
+ body .dark-mode{
+  width:100%;
+  height: 100vh;
+  background-color:var(--bg-body);
+  color:var(--bg-primary);
+  }     
+  .navbar .dark-mode{
+   background-color: var(--bg-header);
+} 
+ .dark-mode a{
+ color: var(--bg-primary);
+}                   
+
+
+                                                   /*For Dark mode Theme*/
+
+
+
+
+header{                                        /* Starting of header section */
+  width:100%;
+  height:10rem;
+  box-shadow: 1px 1px 7px black;
+}
+.navbar{
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+header > .navbar > .main{
+  width:70%;
+  height:100%;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+}
+.main > #logo{
+  font-size:2.5rem;
+  font-weight: 700;
+}
+.main > #logo > span{
+  color:red;
+}
+.main > .content a{
+  text-decoration: none;
+  font-size:1.5rem;
+  font-weight: 700;
+
+}
+.main > .content{
+  width:35rem;
+  display:flex;
+  justify-content: space-between;        
+ }
+ .toogle-btn{
+  height:10rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:2rem;
+}
+ #checkbox{
+  visibility: hidden;
+ }
+ #toogle-label{
+  width:7rem;
+  height:4rem;
+  display:inline-block;
+  border-radius: 10rem;
+  background-color:black;
+ }
+ #toogle-ball{
+  position: relative;
+  top:0.5rem;
+  left:0.3rem;
+  width:3rem;
+  height:3rem;
+  display:inline-block;
+  border-radius: 50%;
+  transition:all .2s linear;
+  background-color:white;
+ }
+
+  #checkbox:checked + #toogle-label   #toogle-ball{
+    transform: translateX(3.4rem);
+    background-color:#5FC;
+  }                                             /* Ending of header section */
+
+
+main{                                        /* Starting of main section */
+
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main > .intro {
+  margin-bottom: 200px;
+}
+main > .intro > h2{
+    font-size:3.5rem;
+
+}
+main > .intro > p{
+  font-size: 1.5rem;
+}
+main > .intro > h2,p{
+  margin-bottom:.5rem;
+}
+main > .intro > a > #btn{
+ margin-top:3rem;
+ width:8rem;
+ height:3rem;
+ font-weight: bolder;
+ border-radius: .5rem;
+ border:1px solid black;
+ cursor:pointer;
+}
+main > .side-pic{
+  margin-bottom:200px;
+}
+main > .side-pic > img{
+  width:45rem;
+}
